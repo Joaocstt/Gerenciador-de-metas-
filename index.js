@@ -10,7 +10,7 @@ let metas = [ meta ]
 
 
 const cadastrarMeta = async () => {
-    const metaInput = await input({message: "Digite a meta: "});
+    const metaInput = await input({message: "Digite una meta: "});
 
     if(meta.length == 0) {
         console.log("A meta não pode ser vázia.");
